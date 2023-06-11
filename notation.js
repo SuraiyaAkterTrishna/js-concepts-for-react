@@ -12,8 +12,8 @@ const prof1 = person.profession;
 
 // bracket notation
 const prof2 = person["profession"];
-const pName = 'profession';
-const prof3 = person[pName];
+const pName = 'profession'; 
+const prof3 = person[pName];  //bracket notation by declaring variable
 // console.log(prof3);
 
 const season = person[25];
