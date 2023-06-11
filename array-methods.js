@@ -9,4 +9,21 @@ const products = [
 // map
 const brands = products.map(product => product.brand);
 const names = products.map(product => product.name);
-console.log(names);
+// console.log(names);
+
+// forEach 
+// products.forEach(product => console.log(product.name));
+
+// filter 
+const cheapest = products.filter(product => product.price <= 5000);
+// console.log(cheap);
+
+const specificProduct = products.filter(product => product.name.includes("n"));
+// console.log(specificProduct);
+
+// find 
+const cheap = products.find(product => product.price <= 5000);
+// console.log(cheap);
+
+const specificName = products.find(product => product.name.includes("n"));
+console.log(specificName);
