@@ -28,10 +28,12 @@ localStorage.setItem('product', productStr);
 // get array from local storage 
 const item = localStorage.getItem('product');
 const itemObj = JSON.parse(item);
-console.log(itemObj);
+// console.log(itemObj);
 
 // get object from local storage 
 const numbers = localStorage.getItem('friendsAge');
 const numbersArr = JSON.parse(numbers);
-console.log(numbersArr);
+// console.log(numbersArr);
+
+localStorage.clear();
 
